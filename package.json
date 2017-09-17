@@ -1,8 +1,0 @@
-{
-    "name": "sgmaker",
-    "version": "1.0.0",
-    "keywords": ["util", "functional", "server", "client", "browser"],
-    "author": "harady",
-    "contributors": [],
-    "dependencies": {}
-}
