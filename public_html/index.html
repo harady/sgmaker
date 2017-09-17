@@ -15,7 +15,13 @@
 				var canvas = document.getElementById("mainCanvas");
 				// create a stage object to work with the canvas. This is the top level node in the display list:
 				var stage = new createjs.Stage(canvas);
-				// Create a new Text object:
+
+				// 黒背景を生成.
+				var rect = new createjs.Shape();
+				rect.graphics.beginFill('black').drawRect(0, 0, canvas.width, canvas.height);
+				stage.addChild(rect);
+
+				// テキストを生成.
 				var text = new createjs.Text("Hello World!", "36px Arial", "#777");
 				text.textAlign = "center";
 				// add the text as a child of the stage. This means it will be drawn any time the stage is updated
@@ -33,6 +39,7 @@
 	<body onload="init();">
 		<div>
 			<canvas id="mainCanvas" width="480" height="854"></canvas>
+			<!--<canvas id="mainCanvas" width="640" height="1136"></canvas>-->
 		</div>
 	</body>
 </html>
