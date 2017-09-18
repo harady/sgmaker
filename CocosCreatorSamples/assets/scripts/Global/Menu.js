@@ -48,7 +48,7 @@ cc.Class({
             //Cocos Analytics service, to learn more please visit:
             // http://analytics.qudao.info/
             cocosAnalytics.CAEvent.onEvent({
-                eventName: "打开范例"
+                eventName: "打ち出し例"
             });
         }
 
@@ -121,7 +121,8 @@ cc.Class({
         cc.find('label', this.btnInfo.node).getComponent(cc.Label).textKey = labelTxt;
     },
 
-    showReadme: function (event, active) {
+	showReadme: function (event, active) {
+		cc.log("showReadme event=" + event + " active=" + active);
         if (active === undefined) {
             this.readme.node.active = !this.readme.node.active;
         }
