@@ -21,7 +21,7 @@
     "_active": true,
     "_components": [],
     "_prefab": null,
-    "_id": "4d9e70bc-ef73-4696-8900-6b480af2f7d7",
+    "_id": "3001e7c9-a194-49df-af3d-05771544e8bc",
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
@@ -70,7 +70,7 @@
       }
     ],
     "_prefab": null,
-    "_id": "acMVgFfh1LFYp4+J3P0+SV",
+    "_id": "b1LLS0+dlOLplFODKVBQJ8",
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
@@ -122,7 +122,7 @@
       }
     ],
     "_prefab": null,
-    "_id": "bbEVlx3VZE67FLoeFuAcIq",
+    "_id": "14iGwdrLRAWJmer61DBhCp",
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
@@ -139,7 +139,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 360,
+      "width": 420,
       "height": 100
     },
     "_rotationX": 0,
@@ -174,7 +174,7 @@
     "_N$file": null,
     "_isSystemFontUsed": true,
     "_spacingX": 0,
-    "_N$string": "テストページ",
+    "_N$string": "タイトルページ",
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
     "_N$fontFamily": "Arial",
@@ -197,7 +197,7 @@
     "_fitHeight": true
   },
   {
-    "__type__": "1c6caGg//VIgqoJyV7+ATWJ",
+    "__type__": "27291a7hWJPg5IWXPHw2M19",
     "_name": "",
     "_objFlags": 0,
     "node": {
