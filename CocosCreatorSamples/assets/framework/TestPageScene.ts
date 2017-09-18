@@ -2,5 +2,5 @@
 const { ccclass, property } = cc._decorator;
 
 @ccclass
-export default class TestPageScene extends cc.Component {
+export class TestPageScene extends cc.Component {
 }
