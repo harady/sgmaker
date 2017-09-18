@@ -72,7 +72,8 @@ cc.Class({
         cc.director.loadScene('TestList', this.onLoadSceneFinish.bind(this));
     },
 
-    loadScene: function (url) {
+	loadScene: function (url) {
+		cc.log("loadScene url=" + url);
         this._isLoadingScene = true;
         this.contentPos = this.testList.getContentPosition();
         this.currentSceneUrl = url;
@@ -89,6 +90,7 @@ cc.Class({
     },
 
     onLoadSceneFinish: function () {
+		cc.log("onLoadSceneFinish");
         let url = this.currentSceneUrl;
         this.loadInstruction(url);
         if (this.isMenu && this.contentPos) {
