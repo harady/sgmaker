@@ -5,6 +5,7 @@ import { SceneManager } from './SceneManager';
 export default class BaseScene extends cc.Component {
 
 	onLoad() {
+		cc.log('onLoad ' + this.name);
 		// init logic
 
 	}
