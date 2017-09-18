@@ -1,5 +1,5 @@
 
-module sgfw {
+module SGFW {
 	const { ccclass, property } = cc._decorator;
 
 	@ccclass

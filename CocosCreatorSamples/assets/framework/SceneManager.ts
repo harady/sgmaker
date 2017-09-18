@@ -1,17 +1,21 @@
 
-module sgfw {
+module SGFW {
 	const { ccclass, property } = cc._decorator;
 
 	@ccclass
 	export class SceneManager extends cc.Component {
+		private static _instance: SceneManager = null;
+		public static get instance(): SceneManager { return this._instance; }
+
+
 		private _currentPageScene: PageSceneRoot;
 		public get currentPageScene(): PageSceneRoot { return this._currentPageScene; }
 		private isLoadingScene: boolean;
 		private currentSceneUrl: string;
 
 		onLoad() {
-			// init logic
-
+			cc.log("onLoad " + this.name);
+			SceneManager._instance = this;
 		}
 
 		public changePageScene() {
