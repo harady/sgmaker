@@ -2,6 +2,6 @@
   "engine_version": "1.6.1",
   "has_native": true,
   "project_type": "js",
-  "projectName": "examplecases",
-  "packageName": "jp.harady.sgmaker"
+  "projectName": "CocosCreatorSamples",
+  "packageName": "jp.harady.cocoscreator_samples"
 }
