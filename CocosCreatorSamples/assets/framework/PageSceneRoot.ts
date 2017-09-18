@@ -1,12 +1,11 @@
 
-module SGFW {
-	const { ccclass, property } = cc._decorator;
+const { ccclass, property } = cc._decorator;
+import { SceneRootBase } from './SceneRootBase';
 
-	@ccclass
-	export class PageSceneRoot extends cc.Component {
-		onLoad() {
-			// init logic
+@ccclass
+export class PageSceneRoot extends SceneRootBase {
+	onLoad() {
+		// init logic
 
-		}
 	}
 }
