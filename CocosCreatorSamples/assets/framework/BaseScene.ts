@@ -6,8 +6,7 @@ export default class BaseScene extends cc.Component {
 
 	onLoad() {
 		cc.log('onLoad ' + this.name);
-		// init logic
-
+		cc.game.addPersistRootNode(this.node);
 	}
 
 	onClickTitle() {

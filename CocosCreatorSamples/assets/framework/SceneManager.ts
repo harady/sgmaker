@@ -16,6 +16,7 @@ export class SceneManager extends cc.Component {
 	onLoad() {
 		cc.log("onLoad " + this.name);
 		SceneManager._instance = this;
+		cc.game.addPersistRootNode(this.node);
 	}
 
 	public changePageScene(name: string) {
