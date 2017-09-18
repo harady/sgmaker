@@ -12,11 +12,11 @@ export default class BaseScene extends cc.Component {
 
 	onClickTitle() {
 		cc.log('onClickTitle');
-		SceneManager.instance.changePageScene();
+		SceneManager.instance.changePageScene('TitlePageScene');
 	}
 
 	onClickTest() {
 		cc.log('onClickTest');
-		SceneManager.instance.changePageScene();
+		SceneManager.instance.changePageScene('TestPageScene');
 	}
 }

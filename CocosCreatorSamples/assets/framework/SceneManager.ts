@@ -18,17 +18,18 @@ export class SceneManager extends cc.Component {
 		SceneManager._instance = this;
 	}
 
-	public changePageScene() {
+	public changePageScene(name: string) {
+		this.loadScene(name);
 	}
 
 	public backPageScene() {
 	}
 
-	public loadScene(url: string) {
-		cc.log("loadScene url=" + url);
+	public loadScene(name: string) {
+		cc.log("loadScene name=" + name);
 		this.isLoadingScene = true;
-		this.currentSceneUrl = url;
-		cc.director.loadScene(url, this.onLoadSceneFinish.bind(this));
+		this.currentSceneUrl = name;
+		cc.director.loadScene(name, this.onLoadSceneFinish.bind(this));
 	}
 
 	private onLoadSceneFinish() {
