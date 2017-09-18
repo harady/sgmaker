@@ -4,18 +4,33 @@ module sgfw {
 
 	@ccclass
 	export class SceneManager extends cc.Component {
-
-		@property(cc.Label)
-		label: cc.Label;
-
-		@property({
-			default: 'hello'
-		})
-		text: string = 'hello';
+		private _currentPageScene: PageSceneRoot;
+		public get currentPageScene(): PageSceneRoot { return this._currentPageScene; }
+		private isLoadingScene: boolean;
+		private currentSceneUrl: string;
 
 		onLoad() {
 			// init logic
 
+		}
+
+		public changePageScene() {
+		}
+
+		public backPageScene() {
+		}
+
+		public loadScene(url: string) {
+			cc.log("loadScene url=" + url);
+			this.isLoadingScene = true;
+			this.currentSceneUrl = url;
+			cc.director.loadScene(url, this.onLoadSceneFinish.bind(this));
+		}
+
+		private onLoadSceneFinish() {
+			cc.log("onLoadSceneFinish");
+			let url = this.currentSceneUrl;
+			this.isLoadingScene = false;
 		}
 	}
 }
