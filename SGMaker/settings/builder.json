@@ -3,7 +3,6 @@
   "appSecret": "",
   "encryptJs": true,
   "excludeScenes": [
-    "0830ee82-0116-48c4-82e0-89784f5e4a04",
     "3aac494e-8a8a-4f99-81d3-9b5f4fb8e6a0",
     "0bc2317d-ca0c-4370-9b73-d5732984b603",
     "dad767d0-e554-42e2-b01b-d116148b0932",
@@ -25,7 +24,6 @@
     "3b108d5b-d32f-4af2-b356-db0e655aea86",
     "3ab6238d-dd8d-40e4-ae1b-bdd5122048b7",
     "47064841-7cf7-4fe6-a645-c7087162e36e",
-    "720d7e0c-47db-4dff-b4e7-c5f685c4d92c",
     "7e34388e-9acd-4193-8611-eed0311eee02",
     "c5449f79-3216-47cb-8d61-d74a1a45532a",
     "ef7dc57c-8039-427f-8adc-6fe10935e05a",
@@ -125,7 +123,9 @@
     "cd67e9f0-cc2c-4fa5-a366-13e7bd5bc121",
     "8f080c72-7499-4778-98a4-539ac9091380",
     "0611c155-5c18-4d5f-9ab5-82d4d562df5f",
-    "d13475c7-b37e-45d6-b6c5-25929e8a0925"
+    "d13475c7-b37e-45d6-b6c5-25929e8a0925",
+    "0830ee82-0116-48c4-82e0-89784f5e4a04",
+    "720d7e0c-47db-4dff-b4e7-c5f685c4d92c"
   ],
   "includeAnySDK": false,
   "includeSDKBox": false,
