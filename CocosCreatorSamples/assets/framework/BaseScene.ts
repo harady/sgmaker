@@ -1,12 +1,10 @@
 const { ccclass, property } = cc._decorator;
 import { SceneManager } from './SceneManager';
 import SampleCompoment from './SampleCompoment';
+import LoadingManager from './LoadingManager';
 
 @ccclass
 export default class BaseScene extends cc.Component {
-    @property(cc.Node)
-    sampleNode: cc.Node;
-
 	onLoad() {
 		cc.log('onLoad ' + this.name);
 		cc.game.addPersistRootNode(this.node);
@@ -24,10 +22,10 @@ export default class BaseScene extends cc.Component {
 
 	onClickAdd() {
 		cc.log('onClickAdd');
-		if(this.sampleNode.opacity == 0) {
-			this.sampleNode.runAction(cc.fadeTo(1.0, 255));
+		if(LoadingManager.instance.loading.node.opacity == 0) {
+			LoadingManager.instance.loading.show();
 		} else {
-			this.sampleNode.runAction(cc.fadeTo(1.0, 0));
+			LoadingManager.instance.loading.hide();
 		}
 	}
 }
