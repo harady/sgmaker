@@ -16,9 +16,10 @@ export default class NewClass extends cc.Component {
     // update (dt) {},
 
     public show() {
+        this.node.runAction(cc.fadeTo(0.2, 255));
     }
 
     public hide() {
-
+        this.node.runAction(cc.fadeTo(0.2, 0));
     }
 }

@@ -1310,18 +1310,9 @@
       "__id__": 2
     },
     "_enabled": true,
-    "myInteger": 1,
-    "myNumber": 0,
-    "myText": "",
-    "myNode": null,
-    "myOffset": {
-      "__type__": "cc.Vec2",
-      "x": 100,
-      "y": 100
-    },
-    "myNodes": [],
-    "myColors": [],
-    "_width": 100
+    "sampleNode": {
+      "__id__": 4
+    }
   },
   {
     "__type__": "cc.Node",
