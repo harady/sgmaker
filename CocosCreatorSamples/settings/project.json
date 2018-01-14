@@ -88,9 +88,9 @@
   "simulator-orientation": false,
   "simulator-resolution": {
     "height": 640,
-    "width": 960
+    "width": 1136
   },
   "start-scene": "65271752-b3a3-4c68-a8a5-ac8255f97cf0",
   "use-customize-simulator": false,
-  "use-project-simulator-setting": false
+  "use-project-simulator-setting": true
 }
