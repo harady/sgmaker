@@ -1,10 +1,7 @@
 const { ccclass, property } = cc._decorator;
 
 @ccclass
-export default class NewClass extends cc.Component {
-    @property(cc.Node)
-    contentNode: cc.Node = null;
-
+export class ShieldPanel extends cc.Component {
     // LIFE-CYCLE CALLBACKS:
 
     // onLoad () {},
