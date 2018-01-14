@@ -1,14 +1,13 @@
 {
   "appKey": "",
   "appSecret": "",
+  "encryptJs": true,
   "excludeScenes": [],
   "includeAnySDK": false,
   "includeSDKBox": false,
-  "includeSdk": [
-    "anysdk"
-  ],
   "inlineSpriteFrames": true,
   "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
   "md5Cache": false,
   "mergeStartScene": false,
   "oauthLoginServer": "",
@@ -19,10 +18,12 @@
     "portrait": true,
     "upsideDown": false
   },
-  "packageName": "jp.harady.sgmaker",
+  "packageName": "jp.harady.cocoscreator_samples",
   "privateKey": "",
   "renderMode": "0",
-  "startScene": "2d2f792f-a40c-49bb-a189-ed176a246e49",
-  "title": "sgmaker",
-  "webOrientation": "auto"
+  "startScene": "65271752-b3a3-4c68-a8a5-ac8255f97cf0",
+  "title": "CocosCreatorSamples",
+  "webOrientation": "auto",
+  "xxteaKey": "2a22d8fb-2211-4c",
+  "zipCompressJs": true
 }
