@@ -18,4 +18,8 @@ export default class BaseScene extends cc.Component {
 		cc.log('onClickTest');
 		SceneManager.instance.changePageScene('TestPageScene');
 	}
+
+	onClickAdd() {
+		cc.log('onClickAdd');
+	}
 }
