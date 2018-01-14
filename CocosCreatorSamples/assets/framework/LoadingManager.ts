@@ -2,7 +2,7 @@ const { ccclass, property } = cc._decorator;
 import { ShieldPanel } from './ShieldPanel';
 
 @ccclass
-export default class LoadingManager extends cc.Component {
+export class LoadingManager extends cc.Component {
 	private static _instance: LoadingManager = null;
 	public static get instance(): LoadingManager { return this._instance; }
 
