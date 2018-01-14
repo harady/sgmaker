@@ -12,6 +12,6 @@ export default class ShieldManager extends cc.Component {
 	}
 
 	hideShield() {
-		
+
 	}
 }
