@@ -1,10 +1,6 @@
 const { ccclass, property } = cc._decorator;
-import { SceneManager } from './SceneManager';
-import { LoadingManager } from './LoadingManager';
-import { SplashPageScene } from './SplashPageScene';
-import { TitlePageScene } from './TitlePageScene';
-import { TestPageScene } from './TestPageScene';
-import { SceneRootBase } from './SceneRootBase';
+import { SceneRootBase } from "../../../Framework/SceneRootBase";
+import { LoadingManager } from "../../../Framework/LoadingManager";
 
 @ccclass
 export default class BaseScene extends SceneRootBase {
