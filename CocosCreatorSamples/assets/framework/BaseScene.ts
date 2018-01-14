@@ -4,26 +4,27 @@ import { LoadingManager } from './LoadingManager';
 import { SplashPageScene } from './SplashPageScene';
 import { TitlePageScene } from './TitlePageScene';
 import { TestPageScene } from './TestPageScene';
+import { SceneRootBase } from './SceneRootBase';
 
 @ccclass
-export default class BaseScene extends cc.Component {
+export default class BaseScene extends SceneRootBase {
 	onLoad() {
 		cc.log('onLoad ' + this.name);
 		cc.game.addPersistRootNode(this.node);
 	}
 
 	start() {
-		SceneManager.instance.changePageScene(SplashPageScene.toString());
+		this.changePangeScene('SplashPageScene');
 	}
 
 	onClickTitle() {
 		cc.log('onClickTitle');
-		SceneManager.instance.changePageScene(TitlePageScene.toString());
+		this.changePangeScene('TitlePageScene');
 	}
 
 	onClickTest() {
 		cc.log('onClickTest');
-		SceneManager.instance.changePageScene(TestPageScene.toString());
+		this.changePangeScene('TestPageScene');
 	}
 
 	onClickAdd() {
