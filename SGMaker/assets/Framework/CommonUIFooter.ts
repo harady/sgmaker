@@ -1,3 +1,5 @@
+import { SceneManager } from "./SceneManager";
+
 // Learn TypeScript:
 //  - [Chinese] http://www.cocos.com/docs/creator/scripting/typescript.html
 //  - [English] http://www.cocos2d-x.org/docs/editors_and_tools/creator-chapters/scripting/typescript/index.html
@@ -23,20 +25,26 @@ export default class CommonUIFooter extends cc.Component {
     // update (dt) {},
 
     onClickMypage() {
+        SceneManager.instance.changePageScene('');
     }
 
     onClickBattle() {
+        SceneManager.instance.changePageScene('');
     }
 
     onClickMonster() {
+        SceneManager.instance.changePageScene('');
     }
 
     onClickShop() {
+        SceneManager.instance.changePageScene('');
     }
 
     onClickGacha() {
+        SceneManager.instance.changePageScene('');
     }
 
     onClickFriend() {
+        SceneManager.instance.changePageScene('');
     }
 }
