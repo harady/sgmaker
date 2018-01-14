@@ -666,10 +666,10 @@
   {
     "__type__": "cc.ClickEvent",
     "target": {
-      "__id__": 2
+      "__id__": 11
     },
-    "component": "BaseScene",
-    "handler": "onClickTest",
+    "component": "CommonUIFooter",
+    "handler": "onClickMypage",
     "customEventData": ""
   },
   {
@@ -928,10 +928,10 @@
   {
     "__type__": "cc.ClickEvent",
     "target": {
-      "__id__": 2
+      "__id__": 11
     },
-    "component": "BaseScene",
-    "handler": "onClickTitle",
+    "component": "CommonUIFooter",
+    "handler": "onClickBattle",
     "customEventData": ""
   },
   {
@@ -1190,10 +1190,10 @@
   {
     "__type__": "cc.ClickEvent",
     "target": {
-      "__id__": 2
+      "__id__": 11
     },
-    "component": "BaseScene",
-    "handler": "onClickAdd",
+    "component": "CommonUIFooter",
+    "handler": "onClickMonster",
     "customEventData": ""
   },
   {
@@ -1452,10 +1452,10 @@
   {
     "__type__": "cc.ClickEvent",
     "target": {
-      "__id__": 2
+      "__id__": 11
     },
-    "component": "BaseScene",
-    "handler": "onClickAdd",
+    "component": "CommonUIFooter",
+    "handler": "onClickShop",
     "customEventData": ""
   },
   {
@@ -1714,10 +1714,10 @@
   {
     "__type__": "cc.ClickEvent",
     "target": {
-      "__id__": 2
+      "__id__": 11
     },
-    "component": "BaseScene",
-    "handler": "onClickAdd",
+    "component": "CommonUIFooter",
+    "handler": "onClickGacha",
     "customEventData": ""
   },
   {
@@ -1976,10 +1976,10 @@
   {
     "__type__": "cc.ClickEvent",
     "target": {
-      "__id__": 2
+      "__id__": 11
     },
-    "component": "BaseScene",
-    "handler": "onClickAdd",
+    "component": "CommonUIFooter",
+    "handler": "onClickFriend",
     "customEventData": ""
   },
   {
@@ -2078,8 +2078,8 @@
       "__id__": 5
     },
     "_enabled": true,
-    "label": null,
-    "text": "hello"
+    "header": null,
+    "footer": null
   },
   {
     "__type__": "cc.Canvas",
