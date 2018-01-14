@@ -16,7 +16,6 @@ export default class NewClass extends cc.Component {
     // update (dt) {},
 
     public show() {
-
     }
 
     public hide() {
